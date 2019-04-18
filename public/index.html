@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<style>
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-family: 'sans-serif';
+    }
+
+    li {
+        clear: both;
+        margin-top: 20px;
+    }
+
+    img {
+        width: 80px;
+        float: left;
+        margin-right: 10px;
+    }
+
+    strong {
+        font-size: 20px;
+    }
+
+    p {
+        margin: 5px 0;
+    }
+</style>
+
+<body>
+    <p> Repositorios para teste (adicione um repositorio corporativo como os exemplos a baixo):<br>
+        react-community/create-react-native-app<br>
+        react-community/react-navigation
+    </p>
+    <form id="repo-form">
+        <input type="text" name="repository" />
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <ul id="repo-list"></ul>
+
+    <script src="./bundle.js"></script>
+</body>
+
+</html>
